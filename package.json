@@ -1,0 +1,40 @@
+{
+  "name": "@ecomfe/stylelint-config",
+  "version": "1.0.0",
+  "description": "Standard stylelint config for efe team",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint *.js",
+    "deploy": "npm publish --access=public",
+    "prepublishOnly": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecomfe/stylelint-config.git"
+  },
+  "keywords": [
+    "stylelint",
+    "config",
+    "lint"
+  ],
+  "author": "otakustay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecomfe/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/ecomfe/stylelint-config#readme",
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "@ecomfe/eslint-config": "^1.0.0",
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-plugin-babel": "^5.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-react": "^7.7.0"
+  },
+  "peerDependencies": {
+    "stylelint": ">=9"
+  }
+}
