@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/ecomfe/stylelint-config#readme",
   "files": [
-    "index.js"
+    "index.js",
+    "baidu"
   ],
   "devDependencies": {
     "@ecomfe/eslint-config": "^6.2.1",
