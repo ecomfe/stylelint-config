@@ -4,7 +4,7 @@
   "description": "Standard stylelint config for efe team",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint *.js",
+    "lint": "eslint *.js baidu/*.js",
     "deploy": "npm publish --access=public",
     "prepublishOnly": "npm run lint"
   },
@@ -28,7 +28,7 @@
     "baidu"
   ],
   "devDependencies": {
-    "@ecomfe/eslint-config": "^6.2.1",
+    "@ecomfe/eslint-config": "^7.2.1",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.15.0",
     "eslint-plugin-babel": "^5.3.1",

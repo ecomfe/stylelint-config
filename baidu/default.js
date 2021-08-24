@@ -1,4 +1,3 @@
-/* eslint-disable import/unambiguous, import/no-commonjs */
 const defaults = require('../index');
 
 module.exports = {
@@ -12,6 +11,6 @@ module.exports = {
         'length-zero-no-unit': null,
         'no-missing-end-of-source-newline': null,
         'number-leading-zero': null,
-        'number-no-trailing-zeros': null
-    }
+        'number-no-trailing-zeros': null,
+    },
 };
